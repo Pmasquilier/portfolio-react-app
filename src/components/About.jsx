@@ -14,12 +14,15 @@ const About = () => {
             <div className='max-w-[1000px] w-full px-4 grid sm:grid-cols-2 gap-8'>
                 <div className='sm:text-right pb-8 pl-4 px-4'>
                     <p className='text-4xl font-bold sm:text-right'>
-                        Salut, moi c'est Pierre. Et si tu jetais un coup d'oeil à mon travail ?
+                        Et si on travaillait ensemble ?
                     </p>
                 </div>
                 <div className='sm:text-right pb-8 pl-4'>
+                    <p className='pb-2'>
+                    Après quatres années d'éxpériences dans une grande entreprise d'édition logiciel, je propose maintenant mes services de développement de site internet en freelancing.
+                    </p>
                     <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Id laudantium, explicabo fuga sunt cupiditate adipisci! Magnam, impedit dolores harum quia sequi dolorem distinctio molestias ab. Reprehenderit ullam facilis eos tenetur?
+                    Je vous accompagne dans la réalisation de votre site web ou pour la maintenance évolutive de votre produit.
                     </p>
                 </div>
             </div>
