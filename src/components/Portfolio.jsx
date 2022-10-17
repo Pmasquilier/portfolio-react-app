@@ -24,12 +24,12 @@ function Portfolio() {
                         Site web en Angular
                     </span>
                     <div className='pt-8 text-center'>
-                        <a href='/'>
+                        <a href='https://www.guidemichmich.com/#/' target="_blank" rel="noreferrer">
                         <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
                             Demo
                         </button>
                         </a>
-                        <a href='/'>
+                        <a href='https://github.com/Pmasquilier/les_jeans_michs_en_voyage' target="_blank" rel="noreferrer">
                         <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
                             Code
                         </button>
@@ -49,12 +49,12 @@ function Portfolio() {
                         Site web en ReactJS
                     </span>
                     <div className='pt-8 text-center'>
-                        <a href='/'>
+                        <a href='/' target="_blank">
                         <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
                             Demo
                         </button>
                         </a>
-                        <a href='/'>
+                        <a href='/' target="_blank">
                         <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
                             Code
                         </button>

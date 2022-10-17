@@ -1,5 +1,5 @@
 import React, {useState} from 'react'
-import Logo from '../assets/logo.png'
+//import Logo from '../assets/logo.png'
 import {
   FaBars,
   FaTimes,
@@ -8,7 +8,6 @@ import {
 } from 'react-icons/fa';
 import { HiOutlineMail } from 'react-icons/hi';
 import { BsFillPersonLinesFill } from 'react-icons/bs';
-import CV from '../assets/CV_pierre_masquilier.pdf';
 
 
 import {Link} from 'react-scroll'
@@ -104,7 +103,7 @@ const Navbar = () => {
               </a>
             </li>
             <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#565F69]'>
-              <a href='{CV}' download="CV_Pierre_Masquilier.pdf" className='flex justify-between items-center w-full text-gray-300'>
+              <a href='../assets/CV_pierre_masquilier.pdf' download="CV_Pierre_Masquilier.pdf" className='flex justify-between items-center w-full text-gray-300'>
                 CV <BsFillPersonLinesFill size={30}></BsFillPersonLinesFill>
               </a>
             </li>
