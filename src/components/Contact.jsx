@@ -5,7 +5,7 @@ const Contact = () => {
   return (
     <div
       name="contact"
-      className="w-full h-screen bg-[#0a192f] flex flex-col justify-center items-center p-4 pt-20"
+      className="w-full h-screen bg-[#0a192f] flex flex-col justify-between items-center pt-20"
     >
       <div>
         <form
@@ -46,10 +46,6 @@ const Contact = () => {
           </button>
         </form>
       </div>
-      <p className="text-gray-300 py-4 text-center md:hidden">
-        Télécharger mon CV, m'envoyer un mail ou prendre contact directement
-        avec moi via :
-      </p>
       <SocialIconMobiles></SocialIconMobiles>
     </div>
   );
