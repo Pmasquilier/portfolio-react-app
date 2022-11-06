@@ -1,5 +1,5 @@
 import React from "react";
-import SocialIconMobiles from "./SocialIcons/SocialIconsMobile";
+import SocialIcons from "./SocialIcons/SocialIcons";
 
 const Contact = () => {
   return (
@@ -46,7 +46,7 @@ const Contact = () => {
           </button>
         </form>
       </div>
-      <SocialIconMobiles></SocialIconMobiles>
+      <SocialIcons className="md:hidden"></SocialIcons>
     </div>
   );
 };

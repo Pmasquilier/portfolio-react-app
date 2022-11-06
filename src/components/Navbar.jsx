@@ -3,7 +3,7 @@ import React, { useState } from "react";
 import { FaBars, FaTimes } from "react-icons/fa";
 
 import { Link } from "react-scroll";
-import SocialIconsDesktop from "./SocialIcons/SocialIconsDesktop";
+import SocialIcons from "./SocialIcons/SocialIcons";
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
@@ -88,7 +88,9 @@ const Navbar = () => {
       </ul>
 
       {/* social icons */}
-      <SocialIconsDesktop></SocialIconsDesktop>
+      <div className="hidden md:flex">
+        <SocialIcons></SocialIcons>
+      </div>
     </div>
   );
 };
