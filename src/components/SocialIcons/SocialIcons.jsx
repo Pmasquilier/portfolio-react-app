@@ -27,7 +27,7 @@ function SocialIcons() {
         </SocialIcon>
         <SocialIcon
           background="bg-blue-600"
-          linkUrl="https://www.linkedin.com/in/pierre-masquilier-50216b149"
+          linkUrl="https://www.linkedin.com/in/%F0%9F%91%A8%E2%80%8D%F0%9F%92%BB-pierre-masquilier-50216b149"
         >
           Linkedin
           <FaLinkedin size={30}></FaLinkedin>
