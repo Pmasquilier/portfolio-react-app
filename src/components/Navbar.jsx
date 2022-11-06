@@ -1,11 +1,9 @@
 import React, { useState } from "react";
 //import Logo from '../assets/logo.png'
-import { FaBars, FaTimes, FaGithub, FaLinkedin } from "react-icons/fa";
-import { HiOutlineMail } from "react-icons/hi";
-import { BsFillPersonLinesFill } from "react-icons/bs";
+import { FaBars, FaTimes } from "react-icons/fa";
 
 import { Link } from "react-scroll";
-import SocialIcons from "./SocialIcons";
+import SocialIconsDesktop from "./SocialIcons/SocialIconsDesktop";
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
@@ -90,38 +88,7 @@ const Navbar = () => {
       </ul>
 
       {/* social icons */}
-      <div className="hidden lg:flex fixed flex-col top-[35%] left-0">
-        <ul>
-          <SocialIcons
-            background="bg-blue-600"
-            linkUrl="https://www.linkedin.com/in/pierre-masquilier-50216b149"
-          >
-            Linkedin
-            <FaLinkedin size={30}></FaLinkedin>
-          </SocialIcons>
-          <SocialIcons
-            background="bg-[#333333]"
-            linkUrl="https://github.com/Pmasquilier"
-          >
-            Github
-            <FaGithub size={30}></FaGithub>
-          </SocialIcons>
-          <SocialIcons
-            background="bg-[#6FC2B0]"
-            linkUrl="mailto:pierremasquilier.pro@gmail.com"
-          >
-            Email
-            <HiOutlineMail size={30}></HiOutlineMail>
-          </SocialIcons>
-          <SocialIcons
-            background="bg-[#565F69]"
-            linkUrl="CV_pierre_masquilier.pdf"
-          >
-            CV
-            <BsFillPersonLinesFill size={30}></BsFillPersonLinesFill>
-          </SocialIcons>
-        </ul>
-      </div>
+      <SocialIconsDesktop></SocialIconsDesktop>
     </div>
   );
 };

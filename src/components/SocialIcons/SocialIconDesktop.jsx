@@ -1,10 +1,7 @@
 import React from "react";
+import { classNames } from "../../utils/classnames";
 
-export function classNames(...classes) {
-  return classes.filter(Boolean).join(" ");
-}
-
-function SocialIcons(props) {
+function SocialIconDesktop(props) {
   return (
     <li
       className={classNames(
@@ -15,7 +12,7 @@ function SocialIcons(props) {
       <a
         href={props.linkUrl}
         target="_blank"
-        className="lg:flex justify-between items-center w-full text-gray-300"
+        className="md:flex justify-between items-center w-full text-gray-300"
         rel="noreferrer"
       >
         {props.children}
@@ -24,4 +21,4 @@ function SocialIcons(props) {
   );
 }
 
-export default SocialIcons;
+export default SocialIconDesktop;
