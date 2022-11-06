@@ -12,6 +12,7 @@ function SocialIconMobile(props) {
       <a
         href={props.linkUrl}
         target="_blank"
+        download
         className="md:flex justify-between items-center w-full text-gray-300 text-center"
         rel="noreferrer"
       >

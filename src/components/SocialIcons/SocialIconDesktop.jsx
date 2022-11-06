@@ -12,6 +12,7 @@ function SocialIconDesktop(props) {
       <a
         href={props.linkUrl}
         target="_blank"
+        download
         className="md:flex justify-between items-center w-full text-gray-300"
         rel="noreferrer"
       >
