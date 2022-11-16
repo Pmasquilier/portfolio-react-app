@@ -2,8 +2,11 @@ import React from "react";
 import Guidemichmich from "../assets/guidemichmich.jpg";
 import PortfolioImg from "../assets/portfolio.jpg";
 import LotteryDapp from "../assets/lottery-dapp.jpg";
+import { useTranslation } from "react-i18next";
 
 function Portfolio() {
+  const { t } = useTranslation();
+
   return (
     <div
       name="portfolio"
@@ -12,9 +15,9 @@ function Portfolio() {
       <div className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full">
         <div className="pb-8">
           <p className="text-4xl font-bold inline border-b-4 text-gray-300 border-pink-600">
-            Portfolio
+            {t("portfolio.part1")}
           </p>
-          <p className="py-6 ">Voici un aperçu de mes récents projets</p>
+          <p className="py-6 ">{t("portfolio.part2")}</p>
         </div>
 
         <div className="grid sm:grid-cols-2 md:grid-cols-2 gap-4">
@@ -25,7 +28,7 @@ function Portfolio() {
             {/* Hover effects */}
             <div className="opacity-0 group-hover:opacity-100">
               <span className="text-2xl font-bold text-white tracking-wider">
-                Mon Portfolio - ReactJS
+                {t("portfolio.part3")}
               </span>
               <div className="pt-8 text-center">
                 <a
@@ -88,7 +91,7 @@ function Portfolio() {
             {/* Hover effects */}
             <div className="opacity-0 group-hover:opacity-100">
               <span className="text-2xl font-bold text-white tracking-wider">
-                Notre tour du monde - Angular
+                {t("portfolio.part4")}
               </span>
               <div className="pt-8 text-center">
                 <a

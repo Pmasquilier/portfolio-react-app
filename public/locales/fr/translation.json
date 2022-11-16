@@ -1,0 +1,39 @@
+{
+    "navbar": {
+      "part1": "Accueil",
+      "part2": "À propos",
+      "part3": "Compétences",
+      "part4": "Projets",
+      "part5": "Contact"
+    },
+    "home": {
+      "hello": "Bonjour, je m'appelle",
+      "part1": "Je suis développeur front-end freelance.",
+      "part2": "Passionné par le développement web, j'accompagne les entreprises et les entrepreneurs à mettre en place une solution personnalisée adaptée à leurs besoins.",
+      "part3": "Projets"
+    },
+    "about": {
+      "part1": "À propos",
+      "part2": "Et si on travaillait ensemble ?",
+      "part3": "Après quatres années d'expériences dans une grande entreprise d'édition logiciel, je propose maintenant mes services de développement de site internet en freelancing.",
+      "part4": "Je vous accompagne dans la réalisation de votre site web ou pour la maintenance évolutive de votre produit."
+    },
+    "skills": {
+      "part1": "Technos",
+      "part2": "Voici quelques unes des technologies avec lesquelles je travaille"
+    },
+    "portfolio": {
+      "part1": "Portfolio",
+      "part2": "Voici un aperçu de mes récents projets",
+      "part3": "Mon Portfolio - ReactJS",
+      "part4": "Notre tour du monde - Angular"
+    },
+    "contact": {
+      "part1": "Contact",
+      "part2": "Vous pouvez remplir le formulaire ci-dessous :",
+      "part3": "Nom",
+      "part4": "Email",
+      "part5": "Message",
+      "part6": "Envoyer"
+    }
+  }

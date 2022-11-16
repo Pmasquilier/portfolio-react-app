@@ -1,0 +1,39 @@
+{
+  "navbar": {
+    "part1": "Home",
+    "part2": "About",
+    "part3": "Skills",
+    "part4": "Projects",
+    "part5": "Contact"
+  },
+  "home": {
+    "hello": "Hello, my name is",
+    "part1": "I am a freelance front-end developer.",
+    "part2": "Passionate about web development, I help companies and entrepreneurs to implement a customized solution tailored to their needs.",
+    "part3": "Projects"
+  },
+  "about": {
+    "part1": "About",
+    "part2": "How about we work together?",
+    "part3": "After four years of experience in a large software company, I am now offering my website development services in freelancing.",
+    "part4": "I accompany you in the realization of your website or for the evolutionary maintenance of your product."
+  },
+  "skills": {
+    "part1": "Technos",
+    "part2": "Here are some of the technologies I work with"
+  },
+  "portfolio": {
+    "part1": "Portfolio",
+    "part2": "Here's an overview of my recent projects",
+    "part3": "My Portfolio - ReactJS",
+    "part4": "Our world tour - Angular"
+  },
+  "contact": {
+    "part1": "Contact",
+    "part2": "You can fill the form below:",
+    "part3": "Name",
+    "part4": "Email",
+    "part5": "Message",
+    "part6": "Send"
+  }
+}
