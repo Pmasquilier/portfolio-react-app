@@ -9,14 +9,14 @@
   "home": {
     "hello": "Hello, my name is",
     "part1": "I am a freelance front-end developer.",
-    "part2": "Passionate about web development, I help companies and entrepreneurs to implement a customized solution tailored to their needs.",
+    "part2": "Passionate about web development, I help companies and entrepreneurs to implement a customized solution that fit to their needs.",
     "part3": "Projects"
   },
   "about": {
     "part1": "About",
     "part2": "How about we work together?",
     "part3": "After four years of experience in a large software company, I am now offering my website development services in freelancing.",
-    "part4": "I accompany you in the realization of your website or for the evolutionary maintenance of your product."
+    "part4": "I can help you in the realization of your website or for the ongoing maintenance of your product."
   },
   "skills": {
     "part1": "Technos",
