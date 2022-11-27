@@ -1,20 +1,24 @@
 import React from "react";
+import { useTranslation } from "react-i18next";
 import { BsFillPersonLinesFill } from "react-icons/bs";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 import { HiOutlineMail } from "react-icons/hi";
 import SocialIcon from "./SocialIcon";
 
 function SocialIcons() {
+  const { i18n } = useTranslation();
+  let CV_URl =
+    i18n.language === "en"
+      ? "CV_Pierre_Masquilier_English.pdf"
+      : "CV_pierre_masquilier.pdf";
+
   return (
     <div
       className="relative flex flex-row bg-[#0a192f]
     md:flex md:fixed md:flex-col md:top-[35%] md:left-0 bg-transparent"
     >
       <ul className="flex w-full justify-evenly md:block">
-        <SocialIcon
-          background="bg-[#565F69]"
-          linkUrl="CV_pierre_masquilier.pdf"
-        >
+        <SocialIcon background="bg-[#565F69]" linkUrl={CV_URl}>
           CV
           <BsFillPersonLinesFill size={30}></BsFillPersonLinesFill>
         </SocialIcon>
