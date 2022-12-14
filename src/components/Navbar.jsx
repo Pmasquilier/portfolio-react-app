@@ -53,7 +53,7 @@ const Navbar = () => {
         <Select
           styles={customStyles}
           onChange={changeLanguage}
-          defaultValue={options[1]}
+          defaultValue={options[0]}
           options={options}
           theme={(theme) => ({
             ...theme,
